@@ -146,6 +146,7 @@ body {
         background-color: #111827;
         padding: 30px;
         border-radius: 12px;
+        margin-top: 20px;
         border: 1px solid #374151;
         box-shadow: 0 20px 40px rgba(0,0,0,0.5);
         position: relative;
@@ -154,10 +155,10 @@ body {
 
 
     .code-syntax-wrapper::before {
-        content: "● ● ●";
+        content: "● ● ● ●";
         color: #374151;
         position: absolute;
-        top: 10px;
+        top: 5px;
         left: 15px;
         font-size: 0.8rem;
         letter-spacing: 5px;
@@ -167,8 +168,9 @@ body {
     .syntax-teal { color: #5EEAD4; }
     .syntax-cyan { color: #22D3EE; }
     .syntax-red { color: #F87171; }
-    .syntax-amber { color: #FBBF24; }
-    .syntax-blue { color: #60A5FA; }
+    .syntax-amber { color: #FBBF24;}
+    .syntax-blue { color: #60A5FA;}
+    .syntax-white {color: #ffffff;}
 
 
     @media (max-width: 991px) {
@@ -178,14 +180,11 @@ body {
     }
 
     @media (min-width: 992px) {
-        .mobile-optimize {
-            display: block;
-        }
-        .code-syntax-wrapper {
-            font-size: 0.9rem;
-            padding: 20px;
-        }
+    .code-syntax-wrapper {
+        font-size: 0.9rem;
+        padding: 35px 20px 20px 20px; 
     }
+}
 
 /*Landing end*/
 
